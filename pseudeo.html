@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudeo.html</title>
+    
+    
+    <style>
+        h1{
+            color: crimson;
+
+
+        }
+
+
+        h1:hover{
+            color: brown;
+            background-color: cyan;
+
+
+        }
+
+        .p1:hover{
+            color: red;
+            background-color: greenyellow;
+
+
+        }
+        .p2:hover{
+            color: aqua;
+            background-color: black;
+        }
+
+        .last:hover{
+            color: beige;
+            
+            background-color: black;
+            
+    
+        }
+
+
+        input:focus{
+            font-size:20px;
+            color: brown;
+            background-color: cyan;
+            font-weight: 700;
+        }
+
+        li:first-child{
+            color: aquamarine;
+            background-color: blueviolet;
+            height: 50px;
+            width:15% ;
+            text-align: center;
+            padding-top: 19px;
+            border-radius: 5px;
+        }
+
+/*this is psudeo class */
+        li:nth-child(2n){
+            background-color: aquamarine;
+            border-radius: 5px;
+            height: 50px;
+            width:15%;
+            padding-top: 19px;
+            text-align: center;
+        }
+
+/*this is psudeo element*/
+        div::before{
+            content:"💸 asba taratari";
+            background-color: blueviolet;
+            font-size: 50px;
+            border-radius: 9px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>pseudeo class</h1>
+    <h1>vodro class</h1>
+    <h1>normal class</h1>
+
+    <p style="text-align : center" class="p1">hara krishan, I will  be a devotee  one day</li>
+    <br>
+    <marquee behavior="" direction="">legend krishana</marquee>
+    <br>
+    <br>
+    <p style="text-align : center;" class="p2">if I don't be a devotee than Jom Raj will take my class</li>
+    <br>
+    <br>
+    <br>
+    <p style="text-align : center; "class="last">So,it's high time to be a devotee</li>
+    <input name="email" type="email" >
+    <br>
+    <input name="pass" type="password">
+    <br>
+    <input type="number">
+    <br>
+    <ol>
+        <li>do programming</li>
+        <li>ensure carrer</li>
+        <li>went to abroad and  get a job</li>
+        <li>be a devotee</li>
+        <li>then chant <span style="color:aqua; border-radius: 5px; background-color: rgb(102, 6, 51); font-size:20px;">Maha Mantra</span>  and be happy</li>
+    </ol>
+
+ 
+        <div>do programming</div>
+        <div>ensure carrer</div>
+        <div>went to abroad and  get a job</div>
+        <div>be a devotee</div>
+        <div>then chant <span style="color:aqua; border-radius: 5px; background-color: rgb(102, 6, 51); font-size:20px;">Maha Mantra</span>  and be happy</div>
+
+
+</body>
+</html>
